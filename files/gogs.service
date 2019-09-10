@@ -9,7 +9,7 @@ Type=simple
 WorkingDirectory=/opt/gogs
 ExecStart=/opt/gogs/gogs web
 Restart=always
-Environment=USER=root HOME=/root
+Environment=USER=gogs HOME=/home/gogs
 
 [Install]
 WantedBy=multi-user.target
